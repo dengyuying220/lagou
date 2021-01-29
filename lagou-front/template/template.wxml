@@ -1,0 +1,46 @@
+<template name='position_link'>
+	<view wx:for='{{positionList}}' wx:key='item.positionId' class='list-item' data-pid='{{item.positionId}}' bindtap="viewPositionDetail">
+		<image class='com-logo' src='{{item.companyLogo}}'></image>
+		<view class='item-desc'>
+			<text class='item-title'>{{item.companyFullName}}</text>
+			<view class='item-info'>
+				<text class='item-pos text-ellipsis'>{{item.city}}</text>
+				<text class='item-salary'>{{item.salary}}</text>
+			</view>
+			<text class='item-time'>{{item.createTime}}</text>
+		</view>
+	</view>
+	<view class='list-item' bindtap="viewPositionDetail">
+		<image class='com-logo' src='../../static/images/company_logo.png'></image>
+		<view class='item-desc'>
+			<text class='item-title'>青合科技</text>
+			<view class='item-info'>
+				<text class='item-pos text-ellipsis'>上海</text>
+				<text class='item-salary'>6k</text>
+			</view>
+			<text class='item-time'>2021/01/29</text>
+		</view>
+	</view>
+  	<view class='list-item'>
+		<image class='com-logo' src='../../static/images/company_logo.png'></image>
+		<view class='item-desc'>
+			<text class='item-title'>青合科技</text>
+			<view class='item-info'>
+				<text class='item-pos text-ellipsis'>上海</text>
+				<text class='item-salary'>6k</text>
+			</view>
+			<text class='item-time'>2021/01/29</text>
+		</view>
+	</view>
+  	<view class='list-item'>
+		<image class='com-logo' src='../../static/images/company_logo.png'></image>
+		<view class='item-desc'>
+			<text class='item-title'>青合科技</text>
+			<view class='item-info'>
+				<text class='item-pos text-ellipsis'>上海</text>
+				<text class='item-salary'>6k</text>
+			</view>
+			<text class='item-time'>2021/01/29</text>
+		</view>
+	</view>
+</template>

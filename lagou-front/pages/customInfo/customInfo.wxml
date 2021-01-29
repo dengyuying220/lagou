@@ -1,0 +1,37 @@
+<!--pages/customInfo/customInfo.wxml-->
+<view class="custom-info">
+	<view class="item">
+		<view class="header">职位</view>
+		<view class="custom-position">
+			<view class="inputer desc text-ellipsis">
+				<input class="input" type="text" placeholder="输入你想发布的职位" />
+				<!-- <text class="button enable">OK</text> -->
+			</view>
+		</view>
+	</view>
+	<view class="item">
+		<view class="header">工作地点</view>
+		<view class="custom-position">
+			<view class="inputer desc text-ellipsis">
+				<input class="input" type="text" placeholder="请选择工作地点" />
+				<!-- <text class="button enable">OK</text> -->
+			</view>
+		</view>
+	</view>
+	<view class="item">
+		<view class="header">薪水</view>
+		<view class="custom-position">
+			<view class="inputer desc text-ellipsis">
+				<input class="input" type="text" placeholder="请输入薪水" />
+			</view>
+		</view>
+	</view>
+	<view class="item">
+		<view class="header">详细信息</view>
+		<view class="custom-position">
+			<view class="inputer desc text-ellipsis">
+				<textarea class="input" type="text" placeholder="请输入薪水"></textarea>
+			</view>
+		</view>
+	</view>
+</view>

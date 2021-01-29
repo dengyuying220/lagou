@@ -1,0 +1,68 @@
+/* pages/customInfo/customInfo.wxss */
+.custom-info {
+  padding: 20px;
+}
+
+.header {
+  color: #ccc;
+  font-size: 12px;
+}
+
+.desc {
+  margin: 10px 0 20px 0;
+  padding: 0 10px;
+  text-align: center;
+  height: 62.5px;
+  line-height: 62.5px;
+  color: #333;
+  font-size: 15px;
+  background-color: #f0f0f0;
+  border-radius: 2px;
+}
+
+.empty {
+  color: #00b38a;
+}
+/* 定制职位-start */
+.custom-position .inputer {
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #e8e8e8;
+}
+
+.custom-position .input {
+  flex-grow: 1;
+  margin-left: 23px;
+  height: 50px;
+  font-size: 15px;
+}
+
+.custom-position .button {
+  flex-shrink: 0;
+  width: 60px;
+  border-left: 1px solid #e8e8e8;
+  text-align: center;
+  font-size: 15px;
+  color: #c2cfcc;
+}
+
+.custom-position .enable {
+  color: #00b38a;
+}
+
+/* 列表 */
+.pre-data {
+  margin-left: 15px;
+}
+
+.pre-data .item {
+  display: block;
+  padding: 0 15px 0 10px;
+  height: 44px;
+  line-height: 44px;
+  color: #666;
+  font-size: 14px;
+  border-bottom: 1px solid #e8e8e8;
+}
+/* 定制职位-end */
